@@ -43,7 +43,7 @@
         <link rel="stylesheet" href="css/style.css" />
     </head>
 
-    <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+    <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" onload="myFunction()">
         <div class="site-wrap">
             <div class="site-mobile-menu site-navbar-target">
                 <div class="site-mobile-menu-header">
@@ -594,7 +594,7 @@
                 </div>
             </div>
 
-            <video autoplay muted loop id="myVideo" height="900px">
+            <video  muted playsinline loop id="myVideo" height="900px">
                 <source src="images/video.mp4" type="video/mp4" />
                 Your browser does not support video.
             </video>
@@ -3134,6 +3134,11 @@
             $(".submit").click(function () {
                 return false;
             });
+            
+            function myFunction(){
+                document.querySelector('video').play();
+            }
+            
         </script>
     </body>
 </html>
