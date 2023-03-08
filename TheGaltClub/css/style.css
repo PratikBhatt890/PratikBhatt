@@ -718,6 +718,10 @@ h5,
 .site-mobile-menu .site-mobile-menu-header .site-mobile-menu-logo a:hover {
     text-decoration: none;
 }
+header a:hover {
+    color: #c7180c !important;
+    text-decoration: underline !important;
+}
 .site-mobile-menu .site-mobile-menu-body {
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
@@ -1017,8 +1021,8 @@ h5,
 }
 .schedule-wrap .cta a {
     text-align: center;
-    background: #f89d13;
-    color: #fff;
+    background: #fff;
+    color: #000;
     padding: 10px 20px;
 }
 .schedule-wrap .cta a .arrow {
